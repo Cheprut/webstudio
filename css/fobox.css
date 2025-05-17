@@ -1,0 +1,70 @@
+.fobox .container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px; /* Для адаптивности */
+
+}
+.fobox__item{
+    width: calc(270px - 30px);
+  width: 270px;
+  height: 251px;
+
+}
+
+
+.fobox__item-top{
+  height: 120px;
+    position: relative; 
+    background-color:#F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+     
+}
+
+
+  .blue-dot {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* на всякий случай */
+  }
+
+  .fobox__bottom {
+    margin-top: 30px; /* отступ от картинки до заголовка */
+    
+  }
+
+  .fobox__item-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1; /* 100% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px; /* если нужно чуть-чуть отступа вниз */
+  }
+
+  .fobox__item-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    width: 270px;
+  }
+
+
+  .fobox {
+    padding: 94px 0; /* можно подкорректировать по макету */
+  }
+  

@@ -1,0 +1,44 @@
+.clients_gride {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+  }
+
+  .client_card {
+    width: 170px;  
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clients_title {
+    font-family:"Roboto"; 
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px; 
+    margin-top: 94px; 
+  
+  }
+
+  .clients_gride {
+    padding-bottom: 94px;
+  }
+
+  .client_card svg {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .client_card:hover svg {
+    filter: brightness(0) saturate(100%) invert(35%) sepia(93%) saturate(2397%) hue-rotate(185deg) brightness(96%) contrast(101%);
+  }
+
+  .client_card:hover {
+    border-color: #2196F3;
+  }

@@ -1,0 +1,35 @@
+.work-box{
+display: flex;
+gap: 30px;
+}
+.work-box-item{
+    position: relative;
+}
+.work-box-botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.work__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.work{
+    margin-bottom: 90px;
+}
+

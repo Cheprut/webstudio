@@ -1,0 +1,87 @@
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  gap: 93px;
+  
+}
+
+.header {
+  padding: 26px 0;
+  background-color: #fff;
+}
+
+.header__logo a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.header__menu {
+    display: flex;
+    gap: 50px; /* расстояние между пунктами */
+  }
+
+  .header__menu a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #212121;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+
+  .header__menu a:hover {
+    color: #2196f3; /* синий при наведении */
+  }
+
+  .header__right a {
+    color:var(--color-gray)
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .header__right {
+    display: flex;
+    gap: 30px;
+  
+  }
+
+  .header__contact:hover {
+    color: #2196f3;
+  }
+  
+  
+
+  .header__contact {
+    display: flex;
+    align-items: center;
+    color: #757575;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    gap: 10px; /* расстояние между иконкой и текстом */
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header__contact:hover svg{
+    fill:#2196f3;
+
+  }
+
+  .header__span{
+    color: #2196f3;
+  }
+
+  
+
+  
+  

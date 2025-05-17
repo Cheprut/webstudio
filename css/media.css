@@ -1,0 +1,13 @@
+@media (max-width: 1367px) {
+  .fobox .container {
+    justify-content: center;
+
+  }
+}
+
+@media (max-width:1024px){
+    form {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+}
