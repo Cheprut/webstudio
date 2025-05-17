@@ -9,7 +9,6 @@
 }
 .fobox__item{
     width: calc(270px - 30px);
-  width: 270px;
   height: 251px;
 
 }
